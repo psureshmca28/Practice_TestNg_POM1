@@ -1,0 +1,15 @@
+<suite name="Data Driven Test Suite">
+	
+ 	<test name="Admin Login TestCase with valid inputs">		
+		<classes>
+			<class name="com.ddt.testcases.AdminLoginTestwithValidData"></class>
+		</classes>		
+	</test> 
+	
+	<test name="Admin Login TestCase with invalid inputs">
+		<classes>
+			<class name="com.ddt.testcases.AdminLoginTestwithInvalidData"></class>
+		</classes>
+	</test>
+
+</suite>

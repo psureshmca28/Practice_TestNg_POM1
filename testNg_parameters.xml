@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+<parameter name ="username" value="username1"/>
+<parameter name ="password" value ="password1"/>		
+  <test  name="Test1">
+	<parameter name ="username" value="username2"/>
+	<parameter name ="password" value ="password2"/>
+    <classes>
+    
+      <class name="com.testNGScripts.TestParams">
+      <parameter name ="username" value="username3"/>
+      <parameter name ="password" value ="password3"/>
+        <methods>
+           	<exclude name="rrrr"></exclude>
+           	<include name="rrrr"></include>
+		</methods>
+		
+		<!-- Include: It executes only included method  of the class. No other methods will exceute -->
+        <!-- Exclude: It executes remaining methods of the class. It skips only excluded methods -->
+        <!-- If you provide both exclude and include it will consider only include -->
+		       									
+     </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+	<!-- We can provide global and method level params also -->
+	<!-- ie: Suite level, test level and class level.We should not put in Classes-->
+	<!-- If we provide in 3 places, it wil take from 1)classes, 2)tests, 3)suite is the order -->
+	<!-- If we provide in Tests and Suites, it wil take from tests -->

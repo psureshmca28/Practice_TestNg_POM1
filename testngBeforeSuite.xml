@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="test_suite">
+
+	<test name="regression">
+	  <classes>
+	     <class name="com.testNGScripts.Home_Loan"></class>
+	     <class name="com.testNGScripts.Personel_Loan"></class>
+	  </classes>
+	</test>  
+	
+	
+	<test name="e2e">
+		<classes>
+		   <class name="com.testNGScripts.Car_Loan"></class>
+		</classes>
+	</test>
+
+</suite>

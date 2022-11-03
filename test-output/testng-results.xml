@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-31T17:43:18 IST" name="Default suite" finished-at="2022-10-31T17:43:18 IST" duration-ms="129">
+    <groups>
+      <group name="regression">
+        <method signature="BeforeClass_and_BeforeGroups.test1()[pri:0, instance:com.testNGScripts.BeforeClass_and_BeforeGroups@27f981c6]" name="test1" class="com.testNGScripts.BeforeClass_and_BeforeGroups"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="BeforeClass_and_BeforeGroups.test2()[pri:0, instance:com.testNGScripts.BeforeClass_and_BeforeGroups@27f981c6]" name="test2" class="com.testNGScripts.BeforeClass_and_BeforeGroups"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-10-31T17:43:18 IST" name="Default test" finished-at="2022-10-31T17:43:18 IST" duration-ms="129">
+      <class name="com.testNGScripts.BeforeClass_and_BeforeGroups">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:com.testNGScripts.BeforeClass_and_BeforeGroups@27f981c6]" started-at="2022-10-31T17:43:18 IST" name="beforeClass" finished-at="2022-10-31T17:43:18 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeGroups()[pri:0, instance:com.testNGScripts.BeforeClass_and_BeforeGroups@27f981c6]" started-at="2022-10-31T17:43:18 IST" name="beforeGroups" finished-at="2022-10-31T17:43:18 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeGroups -->
+        <test-method signature="test1()[pri:0, instance:com.testNGScripts.BeforeClass_and_BeforeGroups@27f981c6]" started-at="2022-10-31T17:43:18 IST" name="test1" finished-at="2022-10-31T17:43:18 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:com.testNGScripts.BeforeClass_and_BeforeGroups@27f981c6]" started-at="2022-10-31T17:43:18 IST" name="test2" finished-at="2022-10-31T17:43:18 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="afterGroups()[pri:0, instance:com.testNGScripts.BeforeClass_and_BeforeGroups@27f981c6]" started-at="2022-10-31T17:43:18 IST" name="afterGroups" finished-at="2022-10-31T17:43:18 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterGroups -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.testNGScripts.BeforeClass_and_BeforeGroups@27f981c6]" started-at="2022-10-31T17:43:18 IST" name="afterClass" finished-at="2022-10-31T17:43:18 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.testNGScripts.BeforeClass_and_BeforeGroups -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
